@@ -1,19 +1,19 @@
 # Functional-Light JavaScript
-# Chapter 2: The Nature Of Functions
+# Capítulo 2: A Natureza das Funções
 
-Functional Programming is **not just programming with the `function` keyword.** Oh, if only it was that easy -- I could end the book right here! Nevertheless, functions really *are* at the center of FP. And it's how we use functions that makes our code *functional*.
+Programação Funcional **não é apenas programação com a palavra-chave `function`.** Oh, se ao menos fosse tão fácil -- Eu poderia encerrar o livro aqui mesmo! No entanto, funções realmente *estão* no centro da FP. E é a forma como usamos as funções que torna nosso código *funcional*.
 
-But how sure are you that you know what *function* really means?
+mas até que ponto tem a certeza de saber o que realmente significa a *função*?
 
-In this chapter, we're going to lay the groundwork for the rest of the book by exploring all the foundational aspects of functions. Actually, this is a review of all the things even a non-FP programmer should know about functions. But certainly if we want to get the most out of FP concepts, it's essential we *know* functions inside and out.
+Neste capítulo, vamos firmar a base para o resto do livro explorando todos os aspectos fundamentais das funções. Na verdade, esta é uma revisão de todas as coisas que uma pessoa programadora não-FP deve saber sobre funções. Mas certamente se quisermos ter o máximo de aproveitamento dos conceitos de FP, é essencial que *saibamos* como são as funções por dentro e por fora.
 
-Brace yourself, because there's a lot more to the function than you may have realized.
+Prepare-se, porque há muito mais na função do que possa perceber.
 
-## What Is a Function?
+## O que é uma Função?
 
-The question "What is a function?" superficially seems to have an obvious answer: a function is a collection of code that can be executed one or more times.
+A pergunta "O que é uma Função?" superficialmente aparenta ter uma resposta óbvia: uma função é uma coleção de código que pode ser executada uma ou mais vezes.
 
-While this definition is reasonable, it's missing some very important essence that is the core of a *function* as it applies to FP. So let's dig below the surface to understand functions more completely.
+Embora a definição seja razoável, está em falta uma essência muito importante que é o núcleo de uma *funcão* visto que se aplica a FP. Portanto vamos cavar abaixo da superfície para compreender mais completamente as funções .
 
 ### Brief Math Review
 
