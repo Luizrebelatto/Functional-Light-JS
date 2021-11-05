@@ -15,39 +15,39 @@ A pergunta "O que é uma Função?" superficialmente aparenta ter uma resposta �
 
 Embora a definição seja razoável, está em falta uma essência muito importante que é o núcleo de uma *funcão* visto que se aplica a FP. Portanto vamos cavar abaixo da superfície para compreender mais completamente as funções .
 
-### Brief Math Review
+### Breve Revisão de Matemática
 
-I know I've promised we'd stay away from math as much as possible, but bear with me for a moment as we quickly observe some fundamental things about functions and graphs from algebra before we proceed.
+Eu sei que prometi que nos afastaríamos o maximo possível da matemática, mas aguentem comigo por um momento, enquanto observamos de forma rápida.
 
-Do you remember learning anything about `f(x)` back in school? What about the equation `y = f(x)`?
+Voltando a escola, você se lembra de aprender algo sobre `f(x)` ? e sobre a equação `y = f(x)`?
 
-Let's say an equation is defined like this: <code>f(x) = 2x<sup>2</sup> + 3</code>. What does that mean? What does it mean to graph that equation? Here's the graph:
+Digamos que uma equação é definida assim: <code>f(x) = 2x<sup>2</sup> + 3</code>. O que isso significa? O que siginifica representar graficamente essa equação? Aqui está o gráfico:
 
 <p align="center">
     <img src="images/fig1.png" width="40%">
 </p>
 
-What you can notice is that for any value of `x`, say `2`, if you plug it into the equation, you get `11`. What is `11`, though? It's the *return value* of the `f(x)` function, which earlier we said represents a `y` value.
+O que se pode notar para qualquer valor de `x`, digamos `2`, se inserir na equação, obtém´se `11`. Mas o que é o `11`? É o *valor de retorno* da função `f(x)`, que anteriormente representava o valor de `y`.
 
-In other words, we can choose to interpret the input and output values as a point at `(2,11)` on that curve in the graph. And for every value of `x` we plug in, we get another `y` value that pairs with it as a coordinate for a point. Another is `(0,3)`, and another is `(-1,5)`. Put all those points together, and you have the graph of that parabolic curve as shown here.
+Em outras palavras, podemos escolher interpretar o valores de entrada(input) e saída(output) como em um ponto `(2,11)` nessa curva do gráfico. E para cada valor de `x` inserirmos, obteremos outro valor de `y` que se equipara a ele como uma coordenada em um ponto. Outro é `(0,3)`, e o outro é `(-1,5)`. Junto todos esses pontos, e você terá o gráfico desta curva parabólica como mostrado aqui.
 
-So what's any of this got to do with FP?
+Então o que isto tem a ver com FP?
 
-In math, a function always takes input(s), and always gives an output. A term you'll often hear around FP is "morphism"; this is a fancy way of describing a set of values that maps to another set of values, like the inputs of a function related to the outputs of that function.
+Na Matemática, uma função sempre recebe entradas(input), e sempre devolve uma saída(output). Um termo que se ouve com frequência em torno de FP é "morfismo"; esta é uma forma elegante de descrever um conjunto de valores que mapeia outro conjunto de valores, como as entradas de uma função relacionadas às saídas desta função.
 
-In algebraic math, those inputs and outputs are often interpreted as components of coordinates to be graphed. In our programs, however, we can define functions with all sorts of input(s) and output(s), even though they'll rarely be interpreted as a visually plotted curve on a graph.
+Na matemática algébrica, essas entradas são muitas vezes interpretadas como componentes de coordenadas a serem marcadas. Nos nossos programas, contudo, podemos definir funções com todo tipo de entrada(input) e saída(output), mesmo que raramente sejam interpretadas como uma curva visualmente traçada num gráfico.
 
-### Function vs Procedure
+### Funcões vs Procedimentos
 
-So why all the talk of math and graphs? Because essentially Functional Programming is about embracing using functions as *functions* in this mathematical sense.
+Então porquê toda essa conversa sobre gráficos e matemática? Porque essencialmente a programação funcional consiste em abordar a utilização de funções como *funções* neste sentido matemático.
 
-You may be more accustomed to thinking of functions as procedures. What's the difference? A procedure is an arbitrary collection of functionality. It may have inputs, it may not. It may have an output (`return` value), it may not.
+Pode estar acostumado a pensar em funções como procedimentos(procedure). Qual é a diferença? Procedimentos são uma coleção arbitrária de funcionalidades. Pode ter entradas, pode não ter. Pode ter saídas (valor do `return`), pode não ter.
 
-A function takes input(s) and definitely always has a `return` value.
+Uma função recebe entradas e definitivamente sempre tem valor de `return`.
 
-If you plan to do Functional Programming, **you should be using functions as much as possible**, and trying to avoid procedures wherever possible. All your `function`s should take input(s) and return output(s).
+Se você planeja utilizar programação funcional, **deve usar as funções tanto quanto possível**, e tentar evitar procedimentos sempre que possível. Todas as suas `funções` devem ter entrada e retornar saída.
 
-Why? The answer to that will have many levels of meaning that we'll uncover throughout this book.
+Por Que? A resposta a isso tera muitos níveis de significado que iremos descobrir ao longo deste livro .
 
 ## Function Input
 
